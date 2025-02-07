@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    /* General Settings */
+    "target": "es2016",                                  /* Set the JavaScript language version. */
+    "module": "commonjs",                                /* Specify the module code generation format. */
+    "outDir": "./dist",                                  /* Redirect output structure to the 'dist' folder. */
+    "rootDir": "./src",                                  /* Specify the root folder for input files. */
+    "esModuleInterop": true,                             /* Enable interoperability between CommonJS and ES Modules. */
+    "forceConsistentCasingInFileNames": true,            /* Enforce consistent casing in file names. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true                                 /* Skip type checking for .d.ts files. */
+  },
+  "include": ["src/**/*.ts"],                            /* Include all TypeScript files in the 'src' folder. */
+  "exclude": ["node_modules", "dist", "**/*.js"]         /* Exclude 'node_modules', 'dist', and any '.js' files. */
+}
