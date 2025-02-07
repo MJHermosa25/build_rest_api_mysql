@@ -23,7 +23,7 @@ app.use(cors());
 app.use(helmet());
 
 // Use userRouter and productRouter for the routes
-app.use('/users', userRouter);
+app.use('/', userRouter);
 app.use('/products', productRouter);
 
 // Start the server
